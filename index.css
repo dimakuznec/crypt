@@ -3,58 +3,96 @@ body {
     font-family: 'ABeeZee', sans-serif;
 }
 
-.header-title {
-    margin-bottom: 13px;
-    font-size: 76px;
-    width: 400;
-    line-height: 76px;
-    color: #080C1A;
-}
-
-.header {
-    display: flex;
-    padding-top: 56px;
-    padding-left: 92px;
-    
+.containar {
+    margin:auto 187px;
 }
 
 
-.header-container {
-    margin-bottom: 984px;
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 400px;
-}
-
-.header-description {
-    font-size: 26px;
-    line-height: 36px;
-    margin-bottom: 54px;
-}
-
-.buy-wrapper {
-    display: flex;
-}
-
-.buy-link {
-   background-color: #4C20FB;
-   padding: 12px 12px 22px 22px;
-   color: #fff;
-   text-decoration: none;
-   font-weight: 214px;
-   border-radius: 19px;
-}
-
-.buy-link:hover {
-    background-color: #579e8f;
-} 
-
-.price-item {
+.nav-item{
     color: #0A0A0A;
     text-decoration: none;
+    margin-left: 92px;
+    margin-right: 92px;
+    font-size: 17px;
 }
 
-.price {
+.nav-item:hover {
+    color: rgb(235, 23, 23);
+}
+
+.nav {
     display: flex;
-    justify-content: safe;
+    justify-content: right;
+    padding-top: 63px;
+}
+
+.title {
+    color: #080C1A;
+    font-size: 76px;
+    width: 735px;
+    
+    margin-right: auto;
+   
+   margin-top: 229px;
+}
+
+.subtitle {
+    color: #080C1A;
+    font-size: 26px;
+    font-weight: 400px;
+    text-align: right;
+    margin-right: auto;
+    width: 450px;
+    margin-top: 13px;
+}
+
+.btn {
+    background-color:#4C20FB;
+    padding: 12px 12px 22px 22px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 92px;
+}
+
+.btn:hover {
+    background-color:#2dca7c;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.nav-title {
+    background-color:#4C20FB;
+    padding: 12px 12px 22px 22px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 92px;
+}
+
+.nav-title:hover {
+    background-color:#2dca7c;
+}
+
+.header-inner {
+display: flex;
+}
+
+.iPhone1 {
+    height: 367px;
+    position: absolute;
+    z-index: 1;
+    right: 200px;
+    bottom: 0;
+}
+
+.money2 {
+    position: absolute;
+    z-index: 2;
+    
+    bottom:0;
 }
